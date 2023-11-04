@@ -1,0 +1,87 @@
+.pagination{
+    text-align: center;
+}
+*{
+    background-color:cyan;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin-block: 100px;
+}
+.tae img{
+    float: left;
+    left: 100px;
+}
+.introduct{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+#hme{
+    margin-left: 20%;
+}
+#About-me{
+    border: 2px solid;
+    padding: 25px;
+    font-size: 16px;
+    width: 650px;
+}
+#sd{
+    float: right;
+}
+.education {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 100px;
+}
+.university {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 100px;
+}
+#Skill{
+    text-align: center;
+}
+.box{
+
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.C{
+    float: left;
+}
+.P{
+    float: right;
+}
+#contact{
+    text-align: center;
+}
+#mail{
+    text-align: center;
+    padding: 10px;
+}
+header{
+    border: 2px solid;
+    padding: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+    position: sticky;
+    
+}
+.pagination a.active{
+    background-color: yellowgreen;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: gray;
+    border-radius: 5px;
+}
